@@ -12,7 +12,7 @@ def calculate_CVaR(alpha, scenario_costs, beta=0.8):
 
 # Generate random scenario costs between 50 and 100
 np.random.seed(42)  # For reproducibility
-scenario_costs = np.random.uniform(500, 10000, 10)
+scenario_costs = np.random.uniform(500, 10000, 5)
 
 # Define a range of alpha values
 alpha_values = np.linspace(min(scenario_costs), max(scenario_costs), 100)
