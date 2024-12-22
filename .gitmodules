@@ -1,0 +1,3 @@
+[submodule "Financial_Analysis"]
+	path = Financial_Analysis
+	url = https://github.com/liammchugh/Financial_Analysis.git
